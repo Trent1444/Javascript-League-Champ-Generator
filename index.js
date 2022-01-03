@@ -1,26 +1,19 @@
 const topImages = [
-  "images/adc/ashe.jpg",
-  "images/adc/jhin.jpg",
-  "images/adc/twitch.jpg",
-  "images/adc/draven.jpg",
-  "images/adc/ezreal.jpg",
-  "images/adc/jinx.jpg",
-  "images/adc/tristana.jpg",
+  "images/top/aatrox.jpg",
+  "images/top/garen.jpg",
+  "images/top/tryndamere.jpg",
 ];
 
 function getRandomTop() {
-  const randomTop = topImages[Math.floor(Math.random() * TopImages.length)];
+  const randomTop = topImages[Math.floor(Math.random() * topImages.length)];
   document.getElementById("championImage").src = randomTop;
 }
 
 const jungleImages = [
-  "images/adc/ashe.jpg",
-  "images/adc/jhin.jpg",
-  "images/adc/twitch.jpg",
-  "images/adc/draven.jpg",
-  "images/adc/ezreal.jpg",
-  "images/adc/jinx.jpg",
-  "images/adc/tristana.jpg",
+  "images/jungle/lee-sin.jpg",
+  "images/jungle/master-yi.jpg",
+  "images/jungle/nocturn.jpg",
+  "images/jungle/vi.jpg",
 ];
 
 function getRandomJungle() {
@@ -30,13 +23,9 @@ function getRandomJungle() {
 }
 
 const midImages = [
-  "images/adc/ashe.jpg",
-  "images/adc/jhin.jpg",
-  "images/adc/twitch.jpg",
-  "images/adc/draven.jpg",
-  "images/adc/ezreal.jpg",
-  "images/adc/jinx.jpg",
-  "images/adc/tristana.jpg",
+  "images/mid/ahri.jpg",
+  "images/mid/anivia.jpg",
+  "images/mid/syndra.jpg",
 ];
 
 function getRandomMid() {
@@ -60,16 +49,12 @@ function getRandomAdc() {
 }
 
 const supportImages = [
-  "images/adc/ashe.jpg",
-  "images/adc/jhin.jpg",
-  "images/adc/twitch.jpg",
-  "images/adc/draven.jpg",
-  "images/adc/ezreal.jpg",
-  "images/adc/jinx.jpg",
-  "images/adc/tristana.jpg",
+  "images/support/soraka.jpg",
+  "images/support/taric.jpg",
+  "images/support/thresh.jpg",
 ];
 
-function getRandomAdc() {
+function getRandomSupport() {
   const randomSupport =
     supportImages[Math.floor(Math.random() * supportImages.length)];
   document.getElementById("championImage").src = randomSupport;
