@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+header {
+  align-items: center;
+}
+
+.random-role-container {
+  margin: 1em;
+}
+
+.random-role {
+  font-size: 2em;
+}
