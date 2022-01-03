@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>League-Champ-Generator</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/LeagueIcon.png"
   </head>
   <body>
     <header>
       <h1>League Champ Generator</h1>
     </header>
+    <img src="images/adc/ashe.jpg" id="championImage" />
     <div class="random-role-container">
-      <button class="random-role" id="top">Top</button>
-      <button class="random-role" id="jungle">Jungle</button>
-      <button class="random-role" id="mid">Mid</button>
-      <button class="random-role" id="adc">Adc</button>
-      <button class="random-role" id="support">Support</button>
+      <button class="random-role" id="top" onclick="getRandomTop()">Top</button>
+      <button class="random-role" id="jungle" onclick="getRandomJungle()">
+        Jungle
+      </button>
+      <button class="random-role" id="mid" onclick="getRandomMid()">Mid</button>
+      <button class="random-role" id="adc" onclick="getRandomAdc()">Adc</button>
+      <button class="random-role" id="support" onclick="getRandomSupport()">
+        Support
+      </button>
     </div>
     <script src="index.js"></script>
   </body>
